@@ -17,9 +17,11 @@
                 <h1 class="store-name store-name-large">The Good-Vives Store</h1>
             </header>
             <section class="container content-section">
+                    <button type="button" onclick='hideKappa()'>Show Prints Only</button>
+                    <button type="button" onclick='hidePrints()'>Show Secret Limited Edition Kappa Items Only</button>
                 <h2 class="section-header">Prints</h2>
                 <div class="shop-items">
-                    <div class="shop-item">
+                    <div class="shop-item print-only">
                         <span class="shop-item-title">"Adventure is Out There"</span>
                         <img class="shop-item-image" src="../shopping-cart/assets/css/pictures/Picture1.png" width="400" height="400">
                         <div class="shop-item-details">
@@ -27,7 +29,7 @@
                             <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                         </div>
                     </div>
-                    <div class="shop-item">
+                    <div class="shop-item print-only">
                         <span class="shop-item-title">"Born To Roam"</span>
                         <img class="shop-item-image" src="../shopping-cart/assets/css/pictures/Picture2.png" width="400" height="400">
                         <div class="shop-item-details">
@@ -35,7 +37,7 @@
                             <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
                         </div>
                     </div>
-                    <div class="shop-item">
+                    <div class="shop-item print-only">
                         <span class="shop-item-title">"Find Your Road"</span>
                         <img class="shop-item-image" src="../shopping-cart/assets/css/pictures/Picture3.png" width="400" height="400">
                         <div class="shop-item-details">
@@ -43,8 +45,8 @@
                             <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                         </div>
                     </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Limited Edition Kappa </span>
+                    <div class="shop-item kappa-print">
+                        <span class="shop-item-title ">Limited Edition Kappa </span>
                         <img class="shop-item-image" src="../shopping-cart/assets/css/pictures/Picture4.jpg" width="400" height="400">
                         <div class="shop-item-details">
                             <span class="shop-item-price">$19.99</span>
@@ -68,6 +70,8 @@
                     <span class="cart-total-price">$0</span>
                 </div>
                 <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                <button class="btn btn-danger"
+                    type="button"> REMOVE</button>
             </section>
 
 
